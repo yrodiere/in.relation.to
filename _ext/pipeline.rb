@@ -114,6 +114,10 @@ Awestruct::Extensions::Pipeline.new do
   extension   Awestruct::Extensions::FileMerger.new
   extension   Awestruct::Extensions::Indexifier.new
 
+  development = Engine.instance.site.profile == 'development'
+  if not development
+    extension Awestruct::Extensions::RedirectCreator.new "redirects"
+  end
 end
 
 # vim: softtabstop=2 shiftwidth=2 expandtab

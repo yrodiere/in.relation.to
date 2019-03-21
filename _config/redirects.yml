@@ -1,0 +1,18 @@
+# A list of redirects
+# For each key in this file a html page is created with a appropriate meta redirect directive to
+# the new URL
+
+# --------------------------------------------------------
+# Blogs imported from blog.hibernate.org (this is a manually created list, someone forgot to automate it when migrating...)
+# --------------------------------------------------------
+
+cgi-bin/blosxom.cgi/2006/12/13: /2006/12/13/seam-11-finally-reaches-ga
+cgi-bin/blosxom.cgi/Max%20Andersen/a_story_about_freemarker_and_velocity.html: /2006/02/03/a_story_about_freemarker_and_velocity
+cgi-bin/blosxom.cgi/Max%20Andersen/lesswiringfornativesql.html: /2005/12/12/hibernate-31-reduced-wiring-code-needed-for-native-sql
+cgi-bin/blosxom.cgi/Steve%20Ebersole/dml-basic.html: /2005/07/20/bulk-operations
+
+# Those links had an anchor; I suspect there were multiple posts per page
+cgi-bin/blosxom.cgi/2007/03/30: /2007/03/31/ee-6-wishlist-part-iejb-session-beans
+cgi-bin/blosxom.cgi/2007/07/09: /2007/07/09/ee-6-wishlist-part-iijsf
+
+#cgi-bin/blosxom.cgi/Gavin%20King/customsql.html: No idea, too many posts
